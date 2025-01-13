@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Api.Template.Services\Api.Template.Services.csproj" />
+    <ProjectReference Include="..\Api.Template.Shared\Api.Template.Shared.csproj" />
+    <ProjectReference Include="..\Api.Template.Sql.DataProvider\Api.Template.Sql.DataProvider.csproj" />
+  </ItemGroup>
+
+</Project>
